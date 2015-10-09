@@ -17,16 +17,29 @@ text-size-adjust: 100%;
 }
 
 body {
-	background-color: red;
+	background-color: white;
 }
 
 
-/* divide pixels by 16 to get em's example (600px/16)= */
+header {
+  background-image: url("../img/sam.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 1em;
+  padding: 10em;
+  color: black;
+  }
+
+h1 {
+	text-align: left;
+	margin: 1em;
+}
+
 
 
 @media only screen and (min-width:35em) {
 	body{
-		background-color:limegreen;
+		background-color: black;
 		}
 
 		h1 {
@@ -35,7 +48,7 @@ body {
 
 @media only screen and (min-width:800px) {
 	body{
-		background-color:yellow;
+		background-color: white;
 	}
 }
 
