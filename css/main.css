@@ -26,13 +26,44 @@ header {
   background-size: 100%;
   background-repeat: no-repeat;
   margin: 1em;
-  padding: 10em;
+  padding: 5em;
   color: black;
   }
 
 h1 {
 	text-align: left;
 	margin: 1em;
+	font size: 5em;
+}
+
+img {
+	width:100%;
+	margin: 0;
+	display: block;
+}
+
+.google {
+	width: 50%;
+	float: left;
+	display: block;
+}
+
+.pin {
+	width: 50%;
+	float: right;
+	display: block;
+}
+
+.twitter {
+	width: 50%;
+	float: left;
+	display: block;
+}
+
+.insta {
+	width: 50%;
+	float: right;
+	display: block;
 }
 
 
