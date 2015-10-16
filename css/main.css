@@ -64,12 +64,23 @@ img {
 	width: 100%;
 }
 
-.google, .pin, .twitter, .insta {
-  display: inline-block;
-  margin-top: 2em;
-  width: 35%;
+
+.content1 {
+	float: left;
+	clear: left;
+	width: 50%;
+	padding-left: 4em;
 
 }
+
+.content2 {
+	float: right;
+	clear: right;
+	width: 50%;
+	padding-right: 4em;
+}
+
+
 
 footer {
 	background-color: black;
