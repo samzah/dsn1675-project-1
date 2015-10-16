@@ -80,13 +80,33 @@ img {
 	padding-right: 4em;
 }
 
+
+footer div {
+	width: 100px;
+	display: inline-block;
+	vertical-align: top;
+
+	/* IE fix. */
+	*display: inline;
+	zoom: 1;
+	}
+
+footer:after {
+	content: "";
+	width: 100%;
+	display: inline-block;
+    }
+
 footer {
 	background-color: black;
 	text-align: justify;
+	padding: 0;
 }
+
 
 div {
 	background-color: black;
+
 }
 
 @media only screen and (min-width:27em) {
@@ -105,12 +125,22 @@ div {
 		font-size: 120%;
 	}
 
+	.google, .pin, .insta, .twitter {
+		width: 40%;
+	}
+
+	footer{
+		padding-top: 2em;
+	}
+
 @media only screen and (min-width:45em) {
 	body{
 		background-color: white;
 		}
 
-
+footer{
+	padding-left: 8em;
+}
 
 .google {
 	float: left;
