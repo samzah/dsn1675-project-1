@@ -177,4 +177,15 @@ footer{
 
 }
 
+@media print {
+
+p {
+	min-width: 27em;
+	}
+
+}
+
+}
+
+
 }
