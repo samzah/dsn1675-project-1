@@ -20,61 +20,93 @@ body {
 	background-color: white;
 }
 
-
 header {
-  background-image: url("../img/sam.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  margin: 1em;
-  padding: 5em;
-  color: black;
+	padding: 0em;
+	margin: 0em;
+	padding-top: 0;
+	text-align: center;
   }
 
+
 h1 {
-	text-align: left;
-	margin: 1em;
-	font size: 5em;
+	margin: 0em;
+	font-size: 3rem;
+	position: relative;
+
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.sam {
+	width: 100%;
+}
+
+p {
+	font-size: 1em;
+	padding-bottom: 1em;
+	padding-top: 2em;
+	background-color: black;
+	color: white;
+	padding-left: 2em;
+	padding-right: 2em;
+
+}
+
+.wrapper {
+ max-width: 25em;
+ margin: 0 auto;
 }
 
 img {
-	width:100%;
-	margin: 0;
-	display: block;
+	width: 100%;
 }
 
-.google {
-	width: 50%;
-	float: left;
-	display: block;
-}
-
-.pin {
-	width: 50%;
-	float: right;
-	display: block;
-}
-
-.twitter {
-	width: 50%;
-	float: left;
-	display: block;
-}
-
-.insta {
-	width: 50%;
-	float: right;
-	display: block;
+.insta, .google, .pin, .twitter {
+  margin: 0 5%;
+  display: inline-block;
 }
 
 
+
+footer {
+	background-color: black;
+}
 
 @media only screen and (min-width:35em) {
+
 	body{
 		background-color: black;
+		color: white;
 		}
 
-		h1 {
-			color: purple;
+div {
+	margin-right: 0em;
+	padding-right: 0em;
+	margin-left: 0em;
+	padding-left: 0em;
+}
+
+	.google {
+		width: 15%;
+
+	}
+
+	.pin {
+		width: 15%;
+
+	}
+
+	.twitter {
+		width: 15%;
+		;
+	}
+
+	.insta {
+		width: 15%;
+
 	}
 
 @media only screen and (min-width:800px) {
