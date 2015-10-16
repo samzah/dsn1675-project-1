@@ -17,42 +17,30 @@ text-size-adjust: 100%;
 }
 
 body {
-	background-color: white;
+	padding: 0;
+	margin: 0;
 }
 
 header {
 	padding: 0em;
 	margin: 0em;
-	padding-top: 0;
+	padding-top: 1em;
 	text-align: center;
-  }
+	color: #bd3d30;
+}
 
 
 h1 {
 	margin: 0em;
 	font-size: 3rem;
 	position: relative;
-
-}
-
-body {
-	padding: 0;
-	margin: 0;
-}
-
-.sam {
-	width: 100%;
 }
 
 p {
 	font-size: 1em;
-	padding-bottom: 1em;
-	padding-top: 2em;
-	background-color: black;
+	padding: 2em;
+	background-color: #bd3d30;
 	color: white;
-	padding-left: 2em;
-	padding-right: 2em;
-
 }
 
 .wrapper {
@@ -64,42 +52,42 @@ img {
 	width: 100%;
 }
 
-
-.content1 {
+.google {
 	float: left;
 	clear: left;
 	width: 50%;
 	padding-left: 4em;
-
 }
 
-.content2 {
+.pin {
 	float: right;
 	clear: right;
 	width: 50%;
 	padding-right: 4em;
 }
 
+.twitter {
+	float: left;
+	clear: left;
+	width: 50%;
+	padding-left: 4em;
+}
 
+.insta {
+	float: right;
+	clear: right;
+	width: 50%;
+	padding-right: 4em;
+}
 
 footer {
 	background-color: black;
-text-align: justify;
-
+	text-align: justify;
 }
 
-footer div {
-	display: inline-block;
-	vertical-align: top;
-	}
-
-footer:after {
-	content: "";
-	width: 100%;
-	display: inline-block;
-    }
-
-
+div {
+	background-color: black;
+}
 
 @media only screen and (min-width:27em) {
 
@@ -108,27 +96,51 @@ footer:after {
 		color: white;
 		}
 
-	.google {
-		width: 25%;
+	header {
+		padding-bottom: 2em;
+		padding-top: 2em;
 	}
 
-	.pin {
-		width: 25%;
-	}
-
-	.twitter {
-		width: 25%;
-	}
-
-	.insta {
-		width: 25%;
+	html {
+		font-size: 120%;
 	}
 
 @media only screen and (min-width:45em) {
 	body{
 		background-color: white;
-	}
+		}
+
+
+
+.google {
+	float: left;
+	clear: none;
+	width: 20%;
+	padding-left: 1em;
 }
 
+.pin {
+	float: left;
+	clear: none;
+	width: 20%;
+	padding-right: 1em;
+}
+
+.twitter {
+	display: left;
+	clear: none;
+	width: 20%;
+	padding-left: 1em;
+}
+
+.insta {
+	float: left;
+	width: 20%;
+	clear: none;
+	padding-right: 1em;
+}
+
+
+}
 
 }
