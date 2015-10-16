@@ -64,12 +64,15 @@ img {
 	width: 100%;
 }
 
-.insta, .google, .pin, .twitter {
-  margin: 0 5%;
+.google, .pin, .twitter, .insta {
   display: inline-block;
+  margin-top: 2em;
+  width: 100%;
 }
 
-
+div img {
+	width: 100%;
+}
 
 footer {
 	background-color: black;
@@ -82,31 +85,20 @@ footer {
 		color: white;
 		}
 
-div {
-	margin-right: 0em;
-	padding-right: 0em;
-	margin-left: 0em;
-	padding-left: 0em;
-}
-
 	.google {
 		width: 15%;
-
 	}
 
 	.pin {
 		width: 15%;
-
 	}
 
 	.twitter {
 		width: 15%;
-		;
 	}
 
 	.insta {
 		width: 15%;
-
 	}
 
 @media only screen and (min-width:800px) {
@@ -114,7 +106,6 @@ div {
 		background-color: white;
 	}
 }
-
 
 
 }
