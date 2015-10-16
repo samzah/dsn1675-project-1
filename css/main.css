@@ -101,8 +101,7 @@ footer:after {
 
 
 
-
-@media only screen and (min-width:35em) {
+@media only screen and (min-width:27em) {
 
 	body{
 		background-color: black;
@@ -125,7 +124,7 @@ footer:after {
 		width: 25%;
 	}
 
-@media only screen and (min-width:800px) {
+@media only screen and (min-width:45em) {
 	body{
 		background-color: white;
 	}
